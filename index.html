@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1> Basketball Game Scores</h1>
+    </div>
+    <div class="container">
+
+        <div>
+            <h2>HOME</h2>
+            <div class="score" id="home-score">0</div>
+            <button id="button" onclick="increment1home()"><span class="score-btn">+1</span></button>
+            <button id="button" onclick="increment2home()"><span class="score-btn">+2</span></button>
+            <button id="button" onclick="increment3home()"><span class="score-btn">+3</span></button>
+        </div>
+        <div>
+            <h2>GUEST</h2>
+            <div class="score" id="away-score">0</div>
+            <button id="button" onclick="increment1away()"><span class="score-btn">+1</span></button>
+            <button id="button" onclick="increment2away()"><span class="score-btn">+2</span></button>
+            <button id="button" onclick="increment3away()"><span class="score-btn">+3</span></button>
+        </div>
+    </div>
+    <button onclick="newgame()" class="newg">New Game</button>
+</body>
+
+</html>
